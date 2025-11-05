@@ -3,6 +3,12 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+
+header{
+  text-align:center;
+  margin-bottom: 30px;
+}
+
 p {
     background-color: lightgreen;
     color: ghostwhite;
@@ -15,10 +21,31 @@ p {
 }
 
 .box {
-    background-color: black;
-    color: whitesmoke;
+    background-color: bisque;
+    color: black;
 }
 section {
     background-color: lavender;
     color: khaki;
+}
+
+h1{
+  font-size: clamp(28px, 3.2vw, 40px);
+  line-height:1.2;
+  margin:0 0 6px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: clamp(20px, 2.2vw, 26px);
+  margin:0 0 14px;
+  color: #2563eb;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 18px;
+  margin: 0 0 8px;
+  font-weight: 600;
+  color: #1a1f36;
 }
